@@ -1,0 +1,152 @@
+
+body {
+    min-height: 100vh;
+    max-width: 80%;
+    background-color: rgb(240, 240, 245); 
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rokkitt', serif;
+}
+.page{
+    width: 90%;
+    padding: 0px;
+    margin: 10px;
+}
+div.logo{
+    height: 110px;
+    width: 110px;
+
+    
+}
+div.logo1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+}
+div.logo2 {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 30px;
+    right: 30px;
+    background-color: rgb(255, 245, 109);
+    border-radius: 50px;
+}
+div.record{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 6px;
+
+}
+div.name{
+    font-size: 60px;
+    position: absolute;
+    top: 40px;
+    right: 50%;
+    transform: translateX(50%);
+}
+.main{
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+}
+ .number{
+    top: 330px;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+ }
+ .number1{
+    font-size: 30px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: aliceblue;
+ }
+ .genre {
+    font-size: 30px;
+    position: absolute;
+    top: 335px;
+    right: 75%;
+ }
+
+ .box {
+    top: 100px;
+    height: 200px;
+    width: 100%;
+    position: relative;
+ 
+ }
+ .box1 {
+    top: 100px;
+    height: 200px;
+    
+    position: relative;
+    background-color: darkorange;
+    
+ }
+ .box2 {
+    height: 200px;
+    margin-left: 30%;
+    position: relative;
+    background-color: aqua;
+ }
+ .box3 {
+    height: 200px;
+    margin-left: 20%;
+    position: relative;
+    background-color: chartreuse;
+ }
+ .box4 {
+    
+    height: 200px;
+    margin-left: 20%;
+    position: relative;  
+    background-color: yellow;
+ }
+ .box5 {
+
+    height: 200px;
+    margin-left:20%;
+    position: relative;
+    background-color: plum;
+ }
+ .box6 {
+  
+    height: 200px;
+    margin-left: 15%;
+    position: relative;
+    background-color: red;
+ }
+ .box7 {
+ 
+    height: 200px;
+    margin-left: 25%;
+    position: relative;
+    background-color: chocolate;
+ }
+ .box8 {
+  
+    height: 200px;
+    margin-left: 35%;
+    position: relative;
+    background-color: blueviolet;
+ }
+ .box9 {
+  
+    height: 200px;
+    margin-left: 50%;
+    position: relative;
+    background-color: bisque;
+ }
+.music{
+   top: 300px;
+   position: relative;
+   
+ }

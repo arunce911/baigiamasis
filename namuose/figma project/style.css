@@ -1,0 +1,16 @@
+*{
+    background-color: #0F1624;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    
+}
+body{
+    width: 100%;
+    max-width: 1200px;
+}
+.container{
+  margin: 0px 200px 0px 200px;
+}
+.navbar {
+
+}

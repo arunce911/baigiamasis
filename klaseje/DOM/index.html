@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        .box {
+            height: 150px;
+            width: 150px;
+            background-color: #658965;
+        }
+
+        #section {
+            height: 200px;
+            width: 100%;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pavadinimas</h1>
+    <button onclick="list()">Click Me!</button>
+
+    <ul id="list1">
+
+    </ul>
+
+    <ul>
+
+    </ul>
+
+    <div class="box" onclick="changeSectionColor()"></div>
+
+    <div id="section"></div>
+
+    <input type="text" id="input1">
+    <button oncanplay="addToCart">add to cart</button>
+    <ul id="cart">
+
+    </ul>
+
+
+
+    <input type="text" id="number">
+
+    <button onclick="squareRoot">sqrt</button>
+    
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
