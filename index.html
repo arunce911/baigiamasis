@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="script.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -27,19 +27,22 @@
             <li><a href="#top">Pradzia</a></li>
             <li><a href="#box">Dezute</a></li>
             <li><a href="#colors">Spalvos</a></li>
-            <li><a href="#save">Forma</a></li>
+            <li><a href="#newUser">Forma</a></li>
         </ul>
     </div>
-    <h1 id="main" class="heading">Baigiamasis darbas</h1>
-
+    <div class="heading">
+        <h1 id="main">Baigiamasis darbas</h1>
+    </div>
     <section id="boxin">
         <div id="box">
-            <button id="box1">Aukstis</button>
-            <button id="box2">Plotis</button>
-            <button id="box3">Centras</button>
-            <button id="box4">pozicija</button>
+            <button id="box-height">Aukstis</button>
+            <button id="box-width">Plotis</button>
+            <button id="box-center">Centras</button>
+            <button id="box-position">Pozicija</button>
+            <button id="box-empty">Gryzti</button>
         </div>
         <div id="popup1">
+            <h2>Spausti cia</h2>
         </div>
 
         <div id="space">
@@ -50,25 +53,41 @@
         </div>
     </section>
 
-    <section>
-        <div id="colors">
-            <div id="colors1"></div>
-            <div id="colors2"></div>
-            <div id="colors3"></div>
-            <div id="colors4"></div>
+    <section id="colors">
+        <h3>Atsitiktines spalvos</h3>
+        <p>Spausti dukart <br>| <br>| <br>\|/</p>
+        <div class="color-container">
+            <div class="color1" ondblclick="randomColor(), addText()"></div>
+            <div class="color" ondblclick="randomColor(), addText()"></div>
+            <div class="color" ondblclick="randomColor(), addText()"></div>
+            <div class="color" ondblclick="randomColor(), addText()"></div>
+            <div class="color5" ondblclick="randomColor(), addText()"></div>
         </div>
     </section>
-    
-    <section>
-        <div id="save">
+
+    <section class="fillForm">
+        <div id="newUser">
             <input type="text" id="name" placeholder="Vardas">
-            <input type="text" id="lastName" placeholder="Pavarde">
-            <input type="text" id="age" placeholder="Amzius">
-            <button id="getValue">Uzpildyti</button>
+            <input type="text" id="surname" placeholder="Pavarde">
+            <input type="text" id="birtOfYear" placeholder="Gimimo metai">
+            <button id="submit">Uzpildyti</button>
         </div>
 
         <div id="Form">
-            <div></div>
+                <table class="formTable">
+                    <tr>
+                        <th>Nr.</th>
+                        <th>Vardas</th>
+                        <th>Pavarde</th>
+                        <th>Amzius</th>
+                    </tr>
+                </table>
+        </div>
+
+        <div>
+            <div>
+                <button id="clean">Isvalyti</button>
+            </div>
         </div>
     </section>
 
